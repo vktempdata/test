@@ -1,0 +1,138 @@
+!SESSION 2014-02-02 01:48:53.766 -----------------------------------------------
+eclipse.buildId=I20110613-1736
+java.version=1.6.0_51
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -keyring /Users/steve/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86 -product org.eclipse.epp.package.jee.product -data /Users/steve/eclipse/gitworkspace -product org.eclipse.epp.package.jee.product -keyring /Users/steve/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.ui 2 0 2014-02-02 01:49:01.842
+!MESSAGE Warnings while parsing the action sets from the 'org.eclipse.ui.actionSets' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2014-02-02 01:49:01.842
+!MESSAGE Actions require a non-empty label or definitionId: plug-in='com.onpositive.gae.base.manager', id='AUTOGEN:::com.onpositive.gae.baseviewer.actionSet3/com.onpositive.gae.baseviewer.ConnectionMode'
+
+!ENTRY org.eclipse.core.net 1 0 2014-02-02 01:49:03.218
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.emf.ecore 2 0 2014-02-02 01:49:07.252
+!MESSAGE Both 'org.eclipse.m2e.model.edit' and 'org.eclipse.iam.pom.model' register a package for 'http://maven.apache.org/POM/4.0.0'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2014-02-02 01:49:07.258
+!MESSAGE Both 'org.eclipse.m2e.model.edit' and 'org.eclipse.iam.pom.model' register an extension parser for 'pom'
+
+!ENTRY org.eclipse.jface 2 0 2014-02-02 01:49:18.796
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-02-02 01:49:18.796
+!MESSAGE A conflict occurred for ALT+SHIFT+D G:
+Binding(ALT+SHIFT+D G,
+	ParameterizedCommand(Command(com.google.gdt.eclipse.designer.launch.gwtLaunchShortcut.debug,Debug GWT Application,
+		Debug GWT Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+D G,
+	ParameterizedCommand(Command(org.codehaus.groovy.eclipse.groovyScriptLaunchShortcut.debug,Debug Groovy Script,
+		Debug Groovy Script,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-02-02 01:49:18.796
+!MESSAGE A conflict occurred for ALT+SHIFT+G:
+Binding(ALT+SHIFT+G,
+	ParameterizedCommand(Command(com.googlecode.goclipse.debug.ui.LaunchShortcut.run,Launch Go Application,
+		Launch Go Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+G,
+	ParameterizedCommand(Command(org.eclipse.emf.codegen.ecore.ui.Generate,Generate Code,
+		Generate code for the EMF models in the workspace,
+		Category(org.eclipse.emf.codegen.ecore.ui.Commands,EMF Code Generation,Commands for the EMF code generation tools,true),
+		org.eclipse.emf.codegen.ecore.genmodel.handler.GenerateHandler,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-02-02 01:49:18.796
+!MESSAGE A conflict occurred for ALT+SHIFT+X G:
+Binding(ALT+SHIFT+X G,
+	ParameterizedCommand(Command(com.google.gdt.eclipse.designer.launch.gwtLaunchShortcut.run,Run GWT Application,
+		Run GWT Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+X G,
+	ParameterizedCommand(Command(org.codehaus.groovy.eclipse.groovyScriptLaunchShortcut.run,Run Groovy Script,
+		Run Groovy Script,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-02-02 01:49:18.796
+!MESSAGE A conflict occurred for COMMAND+SHIFT+F10:
+Binding(COMMAND+SHIFT+F10,
+	ParameterizedCommand(Command(org.eclipse.ui.window.showSystemMenu,Show System Menu,
+		Show the system menu,
+		Category(org.eclipse.ui.category.window,Window,null,true),
+		org.eclipse.ui.internal.ShowPartPaneMenuHandler@c6948c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+Binding(COMMAND+SHIFT+F10,
+	ParameterizedCommand(Command(org.seasar.sastrutsplugin.command.ViewSAStrutsHelp,View SAStruts Help,
+		,
+		Category(org.seasar.sastrutsplugin.category,SAStruts Plugin,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-02-02 01:49:18.796
+!MESSAGE A conflict occurred for ALT+COMMAND+T:
+Binding(ALT+COMMAND+T,
+	ParameterizedCommand(Command(pl.szpinda.plugin.tomcat.commands.tomcatStartStop,Tomcat start,stop,
+		,
+		Category(pl.szpinda.plugin.tomcat.commands.category.key,Tomcat keys,null,true),
+		com.sysdeo.eclipse.tomcat.actions.TomcatKeyHandler,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+COMMAND+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.refactor.quickMenu,Show Refactor Quick Menu,
+		Shows the refactor quick menu,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-02-02 01:49:18.796
+!MESSAGE A conflict occurred for ALT+SHIFT+P:
+Binding(ALT+SHIFT+P,
+	ParameterizedCommand(Command(ch.hsr.ifs.cute.tdd.extractCommand,Extract to new header file,
+		,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+P,
+	ParameterizedCommand(Command(org.eclipse.m2e.core.ui.command.openPom,Open Maven POM,
+		,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY com.google.gdt.eclipse.suite 1 0 2014-02-02 01:49:27.970
+!MESSAGE Registering: com.google.gwt.eclipse.sdkbundle_2.4.0.relr37v201110112027
+
+!ENTRY com.google.gdt.eclipse.suite 1 0 2014-02-02 01:49:29.162
+!MESSAGE Registering: com.google.appengine.eclipse.sdkbundle_1.6.0.v201111171704r37
